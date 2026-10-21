@@ -4,7 +4,7 @@ int main() {
   int t;
   scanf("%d", &t);
   if (t<15){
-    printF("LANH");
+    printf("LANH");
   }
   else if (15<t<25)
   {
@@ -16,7 +16,7 @@ int main() {
   }
   else 
   {
-    printf("RAT_NONG")
+    printf("RAT_NONG");
   }
   return 0;
 }
