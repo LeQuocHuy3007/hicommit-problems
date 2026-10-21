@@ -4,13 +4,13 @@ int main() {
   int t;
   scanf("%d", &t);
   if (t<15){
-    print("LANH");
+    printF("LANH");
   }
-  if else (15<t<25)
+  else if (15<t<25)
   {
     printf("MAT");
   }
-  if else (25<t<35)
+  else if  (25<t<35)
   {
     printf("NONG");
   }
