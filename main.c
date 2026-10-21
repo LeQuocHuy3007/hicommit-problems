@@ -2,9 +2,9 @@
 
 int main() {
   int t;
-  scanf(""%d", &t);
+  scanf("%d", &t);
   if (t<15){
-    print("LANH);
+    print("LANH");
   }
   if else (15<t<25)
   {
