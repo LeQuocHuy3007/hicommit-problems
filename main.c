@@ -10,7 +10,7 @@ int main() {
     dtb=XUAT_SAC;
   }
   else if (dtb>=8.0) {
-     dtb=TOT;
+     dtb=GIOI;
   }
    else if (dtb>=7.0) {
      dtb=KHA;
@@ -23,7 +23,7 @@ int main() {
     drl=XUAT_SAC;
   }
   else if (drl>=80) {
-    drl=GIOI;
+    drl=TOT;
   }
    else if (drl>=70) {
     drl=KHA;
