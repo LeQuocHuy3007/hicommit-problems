@@ -17,5 +17,18 @@ int main() {
    else  {
     KHONG_DAT;
   }
+   if (drl>=90)
+  {
+    XUAT_SAC;
+  }
+  else if (drl>=80) {
+    GIOI;
+  }
+   else if (drl>=70) {
+    KHA;
+  }
+   else  {
+    KHONG_DAT;
+  }
   return 0;
 }
