@@ -38,7 +38,7 @@ int main() {
     printf("HOC_BONG_GIOI");
   }
   else if ((dtb==KHA && drl==KHA || drl==TOT || drl==XUAT_SAC) || (dtb==GIOI && drl==KHA) || (dtb==XUAT_SAC && drl==KHA)) {
-    printf("HOC_BONG_GIOI");
+    printf("HOC_BONG_KHA");
   }
   return 0;
 }
