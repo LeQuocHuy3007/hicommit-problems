@@ -40,5 +40,8 @@ int main() {
   else if ((dtb==KHA && drl==KHA || drl==TOT || drl==XUAT_SAC) || (dtb==GIOI && drl==KHA) || (dtb==XUAT_SAC && drl==KHA)) {
     printf("HOC_BONG_KHA");
   }
+  else {
+    printf("KHONG_DAT");
+  }
   return 0;
 }
