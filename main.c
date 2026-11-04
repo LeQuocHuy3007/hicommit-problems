@@ -14,7 +14,7 @@ int main() {
    else if (dtb>=7.0) {
     KHA;
   }
-   else  (dtb<7.0) {
+   else  {
     KHONG_DAT;
   }
   return 0;
