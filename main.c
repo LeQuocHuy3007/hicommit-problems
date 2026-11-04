@@ -6,29 +6,30 @@ int main() {
   scanf("%d %d", &dtb, &drl);
   if (dtb>=9.0)
   {
-    XUAT_SAC;
+    printf("XUAT_SAC");
   }
   else if (dtb>=8.0) {
-    GIOI;
+    printf("GIOI");
   }
    else if (dtb>=7.0) {
-    KHA;
+    printf("KHA");
   }
    else  {
-    KHONG_DAT;
+    printf("KHONG_DAT");
   }
    if (drl>=90)
   {
-    XUAT_SAC;
+    printf("XUAT_SAC");
   }
   else if (drl>=80) {
-    GIOI;
+    printf("GIOI");
   }
    else if (drl>=70) {
-    KHA;
+    printf("KHA";
   }
    else  {
-    KHONG_DAT;
+    printf("KHONG_DAT");
   }
+  
   return 0;
 }
