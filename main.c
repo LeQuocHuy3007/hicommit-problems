@@ -34,10 +34,10 @@ int main() {
   if (dtb==XUAT_SAC && drl==XUAT_SAC) {
     printf("HOC_BONG_XUAT_SAC");
   }
-  else if (dtb==GIOI && drl==TOT||XUAT_SAC || dtb==XUAT_SAC && drl==TOT) {
+  else if (dtb==GIOI && drl==TOT||XUAT_SAC && dtb==XUAT_SAC && drl==TOT) {
     printf("HOC_BONG_GIOI");
   }
-  else if ((dtb==KHA && drl==KHA||TOT||XUAT_SAC) || (dtb==GIOI && drl==KHA) || (dtb==XUAT_SAC && drl==KHA)) {
+  else if ((dtb==KHA && drl==KHA||TOT||XUAT_SAC) && (dtb==GIOI && drl==KHA) && (dtb==XUAT_SAC && drl==KHA)) {
     printf("HOC_BONG_KHA");
   }
   else {
