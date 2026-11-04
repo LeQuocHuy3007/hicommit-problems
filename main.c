@@ -5,7 +5,7 @@ int main() {
   scanf("%d", &code);
   switch(code)
     {
-      case '1':
+      case "1":
         printf("XEP_LOAI_XUAT_SAC");
         
       case '2':
