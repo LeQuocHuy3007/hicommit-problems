@@ -31,13 +31,13 @@ int main() {
    else  {
     drl=KHONG_DAT;
   }
-  if (dtb==XUAT_SAC && drl==XUAT_SAC) {
+  if (dtb>=9.0 && drl>=90) {
     printf("HOC_BONG_XUAT_SAC");
   }
-  else if ("dtb==GIOI && drl==TOT||XUAT_SAC" || "dtb==XUAT_SAC && drl==TOT") {
+  else if ("9.0>dtb>=8.0 && drl>=80" || "dtb>9.0 && 90>drl>=80") {
     printf("HOC_BONG_GIOI");
   }
-  else if ("dtb==KHA && drl==KHA||TOT||XUAT_SAC" || "dtb==GIOI||XUAT_SAC && drl==KHA") {
+  else if ("8.0>dtb>=7.0 && drl>=70" || "dtb>=8.0 && 80>drl>=70") {
     printf("HOC_BONG_KHA");
   }
   else {
