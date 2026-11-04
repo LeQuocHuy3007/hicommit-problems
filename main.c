@@ -25,7 +25,7 @@ int main() {
     printf("GIOI");
   }
    else if (drl>=70) {
-    printf("KHA";
+    printf("KHA");
   }
    else  {
     printf("KHONG_DAT");
