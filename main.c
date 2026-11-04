@@ -8,5 +8,14 @@ int main() {
   {
     XUAT_SAC;
   }
+  else if (dtb>=8.0) {
+    GIOI;
+  }
+   else if (dtb>=7.0) {
+    KHA;
+  }
+   else  (dtb<7.0) {
+    KHONG_DAT;
+  }
   return 0;
 }
