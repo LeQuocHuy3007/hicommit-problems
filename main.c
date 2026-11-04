@@ -6,19 +6,7 @@ int main() {
   scanf("%d,%d", &dtb, &drl);
   if (dtb>=9.0)
   {
-    XUAT_SAC;
-  }
-  else if (dtb>=8.0)
-  {
-    GIOI;
-  }
-   else if (dtb>=7.0)
-  {
-    KHA;
-  }
-   else (dtb<7.0)
-  {
-    KHONG_DAT;
+    XUAT_SAC
   }
   return 0;
 }
