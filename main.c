@@ -30,7 +30,7 @@ int main() {
    else  {
     printf("KHONG_DAT");
   }
-  if (dtb=XUAT_SAC && drl=XUAT_SAC) {
+  if (dtb==XUAT_SAC && drl==XUAT_SAC) {
     printf("HOC_BONG_XUAT_SAC");
   }
   return 0;
