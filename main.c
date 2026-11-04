@@ -7,7 +7,7 @@ int main() {
   scanf("%f %d", &dtb, &drl);
   if (dtb>=9.0)
   {
-    printf("XUAT_SAC");
+    printf("XUAT_SAC%f", dtb);
   }
   else if (dtb>=8.0) {
     printf("GIOI");
@@ -20,7 +20,7 @@ int main() {
   }
    if (drl>=90)
   {
-    printf("XUAT_SAC");
+    printf("XUAT_SAC%d", drl);
   }
   else if (drl>=80) {
     printf("GIOI");
