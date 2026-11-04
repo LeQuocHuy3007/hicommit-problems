@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 int main() {
-  float dtb,XUAT_SAC,GIOI,KHA,KHONG_DAT;
+  float dtb;
+  char XUAT_SAC,GIOI,KHA,KHONG_DAT;
   int drl;
-  scanf("%d %d", &dtb, &drl);
+  scanf("%f %d", &dtb, &drl);
   if (dtb>=9.0)
   {
     printf("XUAT_SAC");
