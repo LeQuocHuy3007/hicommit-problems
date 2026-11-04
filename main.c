@@ -14,7 +14,7 @@ int main() {
     printf("HOC_BONG_KHS");
   }
   else {
-    pRintf("KHONG_DAT");
+    printf("KHONG_DAT");
   }
   return 0;
 }
